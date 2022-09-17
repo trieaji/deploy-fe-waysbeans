@@ -163,7 +163,7 @@ export default function Cart() {
                 <Row>
                   <div className='between'>
                     <div className='d-flex'>
-                      <img src={"http://localhost:5000/uploads/" + item.product?.image} alt='productimage' style={{width:'20%'}} />
+                      <img src={item.product?.image} alt='productimage' style={{width:'20%'}} />
                       <div className='detailcartlist ps-3'>
                         <p className='fw-semibold mb-3' style={{fontSize:'22px'}}>{item?.product?.name}</p>
                         <div className='counter'>

@@ -38,7 +38,7 @@ export default function Transaction() {
                   <Col sm={4}>
                     <img
                       src={
-                        "http://localhost:5000/uploads/" + cart?.product?.image
+                        cart?.product?.image
                       }
                       alt=''
                       style={{ width: 100 }}

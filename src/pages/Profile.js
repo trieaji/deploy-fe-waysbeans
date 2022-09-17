@@ -27,9 +27,7 @@ export default function Profile() {
               <div>
                 <Row>
                   <Col className='' sm={6}>
-                    <img alt="user" style={{width: "100%",height: "auto",borderRadius: "5px",}}src={Profile?.image === "http://localhost:5000/uploads/"
-                      ? Profile?.image
-                      : User}/>
+                    <img alt="user" style={{width: "100%",height: "auto",borderRadius: "5px",}}/>
                   </Col>
                   <Col sm={6}>
                     <div>
